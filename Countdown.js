@@ -79,6 +79,8 @@
     var _day    = _hour * 24
 
     var Class = function (date, countdownMs) {
+        Watcher.call(this)
+
         this.countdownMs = countdownMs || 1000
         this.end         = new Date(date)
 
@@ -86,7 +88,7 @@
         this.init()
     }
 
-    Class.prototype = Object.create(new Watcher)
+    Class.prototype = Object.create(Watcher.prototype)
     Object.assign(Class.prototype, {
         construct: Class,
 
