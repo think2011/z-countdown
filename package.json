@@ -1,0 +1,19 @@
+{
+  "name": "z-countdown",
+  "version": "1.0.1",
+  "description": "倒计时",
+  "main": "Countdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/think2011/z-countdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/think2011/z-countdown/issues"
+  },
+  "homepage": "https://github.com/think2011/z-countdown#readme"
+}
